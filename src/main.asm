@@ -17,7 +17,6 @@ entry_point::
     xor a
     halt
 
-    di
     ;; turn off the LCD/PPU
     ld [rLCDC], a
     ;; turn off the sound system. Recommended to do if it's not being used
@@ -35,10 +34,8 @@ entry_point::
     ;; back on and run our main loop
     ld a, LCDCF_ON | LCDCF_BGON
     ld [rLCDC], a
-    ei
 
 main_loop:
-    xor a
     halt
 
     ld a, [frame_counter]

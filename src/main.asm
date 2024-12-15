@@ -37,6 +37,7 @@ entry_point::
 
 main_loop:
     halt
+    ;; halt the cpu and wait for an interrupt to occur
 
     ld a, [frame_counter]
     inc a

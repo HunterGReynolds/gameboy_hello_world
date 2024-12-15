@@ -1,6 +1,6 @@
 # A "Hello World" example ROM for the Gameboy
 
-This source is to accompany [this blog post](https://huntergreynolds.github.io/link/).
+This source is to accompany [this blog post](https://huntergreynolds.github.io/posts/gameboy_hello_world/).
 
 ## Requirements
 
